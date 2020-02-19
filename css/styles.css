@@ -146,13 +146,18 @@ i:hover {
 }
 
 /* Media */
-@media (max-width: 1028px) {
-  #title {
+@media (max-width: 990px) {
+  #title .container-fluid {
+  text-align: center;
+  }
+
+  .big-heading {
     text-align: center;
   }
 
   .phone {
+    text-align: center;
     position: static;
-    transform: rotate(10deg);
+    transform: rotate(0deg);
   }
 }
